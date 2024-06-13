@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.Stuff_Block)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.Stuff_Block);
+                        entries.add(ModItems.STAFF);
 
 
                     }).build());
