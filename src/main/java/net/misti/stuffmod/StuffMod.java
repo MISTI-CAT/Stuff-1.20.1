@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.misti.stuffmod.block.ModBlocks;
 import net.misti.stuffmod.item.ModItemGroups;
+import net.misti.stuffmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +16,7 @@ public class StuffMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 
 		ModItemGroups.registerItemGroups();
 	}
