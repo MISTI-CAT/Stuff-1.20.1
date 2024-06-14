@@ -14,9 +14,9 @@ public class ModItemGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(StuffMod.MOD_ID, "stuff"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.stuff"))
-                    .icon(() -> new ItemStack(ModBlocks.Stuff_Block)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.STUFF_BLOCK)).entries((displayContext, entries) -> {
 
-                        entries.add(ModBlocks.Stuff_Block);
+                        entries.add(ModBlocks.STUFF_BLOCK);
                         entries.add(ModItems.STAFF);
 
 

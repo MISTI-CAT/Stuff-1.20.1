@@ -13,7 +13,7 @@ import net.misti.stuffmod.StuffMod;
 
 public class ModBlocks {
 
-    public static final Block Stuff_Block = registerBlock("stuff_block", new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block STUFF_BLOCK = registerBlock("stuff_block", new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {

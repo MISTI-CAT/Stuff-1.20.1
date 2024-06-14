@@ -9,7 +9,7 @@ import net.misti.stuffmod.StuffMod;
 import net.misti.stuffmod.item.custom.Staff;
 
 public class ModItems {
-    public static final Item STAFF = registerItem("staff", new Staff());
+    public static final Item STAFF = registerItem("copper_staff", new Staff());
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(StuffMod.MOD_ID, name), item);
