@@ -15,6 +15,6 @@ public class Staff extends SwordItem {
     }
 
     public Staff() {
-        super(ModToolMaterial.COPPER, 4, 5, new FabricItemSettings().rarity(Rarity.EPIC));
+        super(ModToolMaterial.COPPER, 4, 5, new FabricItemSettings().rarity(Rarity.EPIC).maxCount(1).fireproof());
     }
 }
