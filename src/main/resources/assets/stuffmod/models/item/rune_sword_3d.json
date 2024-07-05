@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/rune_sword_3d",
-		"particle": "item/rune_sword_3d"
+		"0": "stuffmod:item/rune_sword_3d",
+		"particle": "stuffmod:item/rune_sword_3d"
 	},
 	"elements": [
 		{
