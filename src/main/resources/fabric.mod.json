@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "stuffmod",
 	"version": "${version}",
-	"name": "Stuff Mod",
-	"description": "This is a Tutorial Mod made by misti :)",
+	"name": "Rune Sword",
+	"description": "This is a Mod that adds new sword that lets you teleport. made by misti",
 	"authors": [
 		"misti!"
 	],
