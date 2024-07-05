@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "stuffmod:item/copper_staff"
+    "layer0": "stuffmod:item/rune_sword"
   }
 }

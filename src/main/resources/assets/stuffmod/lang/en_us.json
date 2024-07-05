@@ -1,7 +1,5 @@
 {
-  "block.stuffmod.stuff_block": "Stuff Block",
+  "item.stuffmod.rune_sword": "Rune Sword",
 
-  "item.stuffmod.copper_staff": "Staff",
-
-  "itemgroup.stuff": "Stuff Group"
+  "itemgroup.rune": "Rune"
 }

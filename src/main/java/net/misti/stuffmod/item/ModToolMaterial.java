@@ -7,8 +7,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    COPPER(5, 2531, 10f, 5f, 26,
-            () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    RUNE(5, 2531, 10f, 5f, 26,
+            () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

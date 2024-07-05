@@ -17,8 +17,8 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 public abstract class ItemRendererMixin {
     @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
     public BakedModel useStaffModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
-        if (stack.isOf(ModItems.STAFF) && renderMode != ModelTransformationMode.GUI) {
-            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(StuffMod.MOD_ID, "copper_staff_3d", "inventory"));
+        if (stack.isOf(ModItems.RUNESWORD) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(StuffMod.MOD_ID, "rune_sword_3d", "inventory"));
         }
         return value;
     }

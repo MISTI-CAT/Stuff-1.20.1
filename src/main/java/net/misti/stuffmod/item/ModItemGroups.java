@@ -11,13 +11,12 @@ import net.misti.stuffmod.StuffMod;
 import net.misti.stuffmod.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup RUNE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(StuffMod.MOD_ID, "stuff"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.stuff"))
-                    .icon(() -> new ItemStack(ModBlocks.STUFF_BLOCK)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rune"))
+                    .icon(() -> new ItemStack(ModItems.RUNESWORD)).entries((displayContext, entries) -> {
 
-                        entries.add(ModBlocks.STUFF_BLOCK);
-                        entries.add(ModItems.STAFF);
+                        entries.add(ModItems.RUNESWORD);
 
 
                     }).build());
