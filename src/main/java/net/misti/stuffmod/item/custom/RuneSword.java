@@ -23,6 +23,7 @@ public class RuneSword extends SwordItem {
         user.getItemCooldownManager().set(this, 200);
         if (!world.isClient) {
             EnderPearlEntity enderPearlEntity = new EnderPearlEntity(world, user);
+            enderPearlEntity.setItem(itemStack);
             enderPearlEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
             world.spawnEntity(enderPearlEntity);
         }
