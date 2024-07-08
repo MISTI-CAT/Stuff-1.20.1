@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUNESWORD)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.RUNESWORD);
+                        entries.add(ModItems.RUNE_TEMPLATE);
 
 
                     }).build());

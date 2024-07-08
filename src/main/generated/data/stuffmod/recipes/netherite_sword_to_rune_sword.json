@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "stuffmod:rune_sword"
+  },
+  "template": {
+    "item": "stuffmod:rune_template"
+  }
+}
